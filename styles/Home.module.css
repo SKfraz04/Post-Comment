@@ -1,39 +1,73 @@
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .form {
-    width: 100%;
+  width: 100%;
+  border: 2px solid rebeccapurple;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
 }
 
 .formItem {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+}
+.form:hover {
+  border: 2px solid white;
 }
 
 .formItem label {
-    display: block;
+  display: block;
 }
 
-.formItem input[type='text'] {
-    display: block;
-    width: 100%;
-    padding: 10px;
+.formItem input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(119, 67, 170);
+  border-radius: 15px;
 }
 
 .formItem textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(119, 67, 170);
+  border-radius: 15px;
 }
 
 .error {
-    color: red;
+  color: red;
 }
 
 .message {
-    color: green;
+  color: green;
+}
+.container li {
+  border: 2px solid rebeccapurple;
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+  width: 24%;
+  margin: 0 6px 6px 0;
+  background-color: rebeccapurple;
+  color: white;
+}
+.container li:hover {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+.container li button {
+  background-color: rgb(150, 83, 218);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.container li button:hover {
+  background-color: rgb(119, 67, 170);
 }
