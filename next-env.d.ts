@@ -1,5 +1,6 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
+MONGODB_URI = "mongodb+srv://SKFraz:Himalya400.@cluster0.vg1ifnr.mongodb.net/sample_posts"
+DB_NAME= "sample_posts"
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
+DEV_URL = "http://localhost:3000"
+
+PROD_URL = ""
